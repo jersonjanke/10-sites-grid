@@ -1,0 +1,102 @@
+html {
+    background: url(./car-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p, div, body {
+    margin: 0px;
+}
+
+button {
+    height: 60px;
+    width: 175px;
+    color: #fff;
+    background-color: #00e7ffd6;
+    text-decoration: none;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+button:hover {
+   border: 2px solid #fff;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 100px 2fr 100px;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    color: #ffffff;
+}
+
+.container-body {
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600px;
+    color: #ffffff;
+    margin: 5px;
+}
+
+.container-menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+
+.label {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #00e7ffd6;
+}
+
+.container-submenu {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 192px;
+    justify-content: space-around;
+    align-content: center;
+    margin: 12px;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.link:hover {
+    border: 2px solid #fff;
+    background-color: #00e7ffd6;
+}
+
+.selected {
+    background-color: #00e7ffd6;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-rows: 120px;
+    background-color: black;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00e7ffd6;
+}
